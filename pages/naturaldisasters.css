@@ -1,0 +1,148 @@
+.header, .footer{
+    height: 10vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+}
+
+.img{
+    height: 90%;
+    width: 5%;
+}
+
+.navbar{
+    height: 10vh;
+    width: 100vw;
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+nav a:hover{
+    transition: 2s;
+    background-color: white;
+    color: black;
+}
+
+.main{
+    height: 70vh;
+    width: 100vw;
+    background-color: #1a9efc;
+}
+
+.row1{
+    width: 100vw;
+    height: 90vh;
+    background-color: #1a9efc;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title{
+    height: 25vh;
+    width: 100vw;
+    background-color: #1a9efc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titlechild{
+    width: 70%;
+    height: 20vh;
+    background-image: linear-gradient(aqua, aquamarine);
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column1, .column2, .column3{
+    height: 80vh;
+    width: 30vw;
+    background-color: aqua;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.photo{
+    height: 35vh;
+    width: 25vw;
+    background-color: burlywood;
+    margin-top: 15px;
+    border-radius: 5%;
+}
+
+.photos{
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.cr1{
+    height: 38vh;
+    width: 30vw;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    border-radius: 5%;
+}
+
+.cr2{
+    width: 30vw;
+    height: 32vh;
+    background-color: aqua;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    height: 30vh;
+    width: 25vw;
+    background-color: blue;
+    font-size: 22px;
+}
+
+.link{
+    height: 5vh;
+    width: 25vw;
+    background-color: aqua;
+}
+
+.text a{
+    text-decoration: none;
+    color: black;
+    background-color: yellow;
+    display: block;
+}
+
+.image{
+    height: 100%;
+    width: 100%;
+    border-radius: 5%;
+}
+
+
+

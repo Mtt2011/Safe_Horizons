@@ -1,0 +1,128 @@
+.header, .footer{
+    height: 10vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    width: 5%;
+    height: 90%;
+}
+
+.navbar{
+    height: 10vh;
+    width: 100vw;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+nav a:hover{
+    transition: 2s;
+    background-color: white;
+    color: black;
+}
+
+.main{
+    height: 70vh;
+    width: 100vw;
+    background-color: #1a9efc;
+    display: flex;
+    justify-content: center;
+}
+
+.titlediv{
+    height: 25vh;
+    width: 100vw;
+    background-color: #1a9efc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titlechild{
+    width: 70%;
+    height: 20vh;
+    background-image: linear-gradient(aqua, aquamarine);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.row1{
+    width: 92%;
+    height: 70%;
+    background-color: #1a9efc;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.column1{
+   height: 100%;
+   width: 40vw;
+   background-color: #1a9efc;
+}
+
+.column2{
+    height: 100%;
+    width: 45vw;
+    background-color: #1a9efc;
+    display: flex;
+    justify-content: center;
+}
+
+.description{
+    width: 40vw;
+    height: 20%;
+    background-image: radial-gradient(aqua, aquamarine);
+    font-size: 20px;
+    text-align: justify;
+}
+
+.gap{
+    height: 15%;
+    width: 40vw;
+    background-color: #1a9efc;
+}
+
+.text{
+    height: 65%;
+    width: 40vw;
+    background-image: radial-gradient(aqua, aquamarine);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    text-align: justify;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+
+.photo{
+    width: 30vw;
+    height: 100%;
+    background-image: radial-gradient(aqua, aquamarine);
+}
+
+.rimage{
+    width: 100%;
+    height: 100%;
+}
+

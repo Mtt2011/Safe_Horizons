@@ -1,0 +1,111 @@
+.header, .footer{
+    height: 10vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+}
+
+.img{
+    width: 5%;
+    height: 90%;
+}
+
+body{
+    height: 100vh;
+}
+
+.navbar{
+    height: 10vh;
+    width: 100vw;
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+nav a:hover{
+    transition: 2s;
+    background-color: white;
+    color: black;
+}
+
+.footer{
+    height: 10vh;
+}
+
+.main{
+    height: 120vh;
+    width: 100vw;
+    background-color: #1a9efc;
+}
+
+.row1{
+    height: 50vh;
+    width: 100vw;
+    background-color: #1a9efc;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title{
+    height: 25vh;
+    width: 100vw;
+    background-color: #1a9efc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titlechild{
+    width: 70%;
+    height: 20vh;
+    background-image: linear-gradient(aqua, aquamarine);
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.listtitle{
+    height: 10vh;
+    width: 40vw;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(aqua, aquamarine);
+}
+
+.gap{
+    height: 5vh;
+    width: 40vw;
+    background-color: #1a9efc;
+}
+
+.list{
+    font-size: 23px;
+    background-image: radial-gradient(aqua, aquamarine);
+    height: 35vh;
+    width: 40vw;
+}
+
+.webphoto{
+    width: 40vw;
+    height: 50vh;
+}
+
+.column2{
+    height: 50vh;
+    width: 40vw;
+}
